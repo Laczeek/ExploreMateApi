@@ -19,6 +19,9 @@ const upload = multer({
 			cb(new AppError('The transferred file is not an image.', 400));
 		}
 	},
+	limits: {
+		fileSize: 31457284 //max size of each file 3mb
+	}
 });
 
 // user routes
