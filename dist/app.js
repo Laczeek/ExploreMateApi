@@ -41,3 +41,4 @@ mongoose_1.default
     console.log(`Error occures 💥`);
     console.log(err);
 });
+module.exports = app;
