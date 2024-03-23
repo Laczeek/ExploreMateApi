@@ -1,0 +1,171 @@
+[
+	{
+		"name": "Tomasz",
+		"lastname": "Kowalski",
+		"localization": {
+			"type": "Point",
+			"coordinates": [19.937156, 50.061843]
+		},
+		"description": "Hello everyone! I'm Tomasz Kowalski, delighted to meet you all! Join me in uncovering the magical corners of Krakow. Krakow, a city rich in history and culture, entices with its landmarks and unique atmosphere. My passion for history and love for this place will turn your journey into an unforgettable experience.",
+		"duration": 3,
+		"price": 150,
+		"ratingsAvg": 4.5,
+		"ratingsQuantity": 10,
+		"maxGroupSize": 5,
+		"startDates": [
+			"2023-01-10T09:00:00.000Z",
+			"2023-05-20T09:00:00.000Z",
+			"2023-08-10T09:00:00.000Z",
+			"2024-05-19T09:00:00.000Z",
+			"2024-06-20T09:00:00.000Z",
+			"2024-08-18T09:00:00.000Z"
+		]
+	},
+	{
+		"name": "Paul",
+		"lastname": "Muller",
+		"localization": {
+			"type": "Point",
+			"coordinates": [13.405494, 52.52043]
+		},
+		"description": "Greetings, fellow adventurers! I'm Paul Muller, your guide to the vibrant city of Berlin! Allow me to lead you through the rich tapestry of history, culture, and modernity that defines this remarkable metropolis. Berlin, a city that never sleeps, teems with stories waiting to be unveiled. With my deep-rooted knowledge and fervor for exploration, I'll introduce you to the city's most iconic landmarks and well-kept secrets.",
+		"duration": 5,
+		"price": 550,
+		"ratingsAvg": 2.5,
+		"ratingsQuantity": 6,
+		"maxGroupSize": 10,
+		"startDates": [
+			"2023-05-20T09:00:00.000Z",
+			"2023-01-10T09:00:00.000Z",
+			"2024-05-19T09:00:00.000Z",
+			"2024-05-25T09:00:00.000Z",
+			"2024-07-20T09:00:00.000Z",
+			"2024-10-05T09:00:00.000Z"
+		]
+	},
+	{
+		"name": "Himari",
+		"lastname": "Nakamura",
+		"localization": {
+			"type": "Point",
+			"coordinates": [135.499372, 34.670442]
+		},
+		"description": "Hello travelers! I'm Himari Nakamura, your guide to Osaka. Join me as we explore the vibrant streets, delicious food, and rich history of this incredible city. Let's uncover Osaka's hidden treasures together! See you in Osaka!",
+		"duration": 6,
+		"price": 850,
+		"ratingsAvg": 5,
+		"ratingsQuantity": 8,
+		"maxGroupSize": 7,
+		"startDates": ["2024-06-25T09:00:00.000Z", "2024-07-20T09:00:00.000Z", "2024-10-05T09:00:00.000Z"]
+	},
+	{
+		"name": "Robert",
+		"lastname": "Lewis",
+		"localization": {
+			"type": "Point",
+			"coordinates": [-87.93043, 43.070315]
+		},
+		"description": "Meet Robert, your go-to guide for exploring the vibrant city of Milwaukee. With a knack for uncovering hidden gems and sharing captivating stories, I'm here to ensure you have an unforgettable experience. From the historic landmarks to the trendy neighborhoods, join me as we dive into the heart of Milwaukee's culture and history. Let's embark on a journey filled with laughter, discovery, and plenty of memorable moments. Get ready to see Milwaukee through the eyes of a local with me, Robert, by your side.",
+		"duration": 2,
+		"price": 300,
+		"ratingsAvg": 5,
+		"ratingsQuantity": 8,
+		"maxGroupSize": 3,
+		"startDates": [
+			"2023-02-10T09:00:00.000Z",
+			"2023-07-20T09:00:00.000Z",
+			"2023-09-10T09:00:00.000Z",
+			"2024-06-25T09:00:00.000Z",
+			"2024-07-20T09:00:00.000Z",
+			"2024-10-05T09:00:00.000Z"
+		]
+	},
+	{
+		"name": "Elisabeth",
+		"lastname": "Andersson",
+		"localization": {
+			"type": "Point",
+			"coordinates": [17.817249, 59.326038]
+		},
+		"description": "Meet Elisabeth, your enthusiastic guide to the enchanting city of Stockholm. With a deep love for her hometown and a passion for sharing its rich history and vibrant culture, Elisabeth is your perfect companion for exploring this Scandinavian gem. From the cobblestone streets of Gamla Stan to the modern marvels of Djurgården, join Elisabeth on a journey through Stockholm's past and present. With her warm smile and wealth of knowledge, she'll lead you on an unforgettable adventure filled with stories, sights, and Swedish delights. Get ready to experience Stockholm in a whole new light with Elisabeth as your guide.",
+		"duration": 4,
+		"price": 500,
+		"ratingsAvg": 5,
+		"ratingsQuantity": 8,
+		"maxGroupSize": 7,
+		"startDates": [
+			"2023-02-10T09:00:00.000Z",
+			"2023-07-20T09:00:00.000Z",
+			"2023-09-10T09:00:00.000Z",
+			"2024-06-25T09:00:00.000Z",
+			"2024-07-20T09:00:00.000Z",
+			"2024-10-05T09:00:00.000Z"
+		]
+	},
+	{
+		"name": "Blanche",
+		"lastname": "Mercier",
+		"localization": {
+			"type": "Point",
+			"coordinates": [2.2646347, 48.8588255]
+		},
+		"description": "Bonjour! Je m'appelle Blanche, and I'm thrilled to be your guide through the enchanting streets of Paris. As a proud Parisian, I have a deep love for my city and its rich history, art, and culinary delights. Allow me to take you on a journey through the charming neighborhoods, iconic landmarks, and hidden gems that make Paris truly special.",
+		"duration": 7,
+		"price": 800,
+		"ratingsAvg": 5,
+		"ratingsQuantity": 8,
+		"maxGroupSize": 10,
+		"startDates": [
+			"2023-02-10T09:00:00.000Z",
+			"2023-07-20T09:00:00.000Z",
+			"2023-09-10T09:00:00.000Z",
+			"2024-06-25T09:00:00.000Z",
+			"2024-07-20T09:00:00.000Z",
+			"2024-10-05T09:00:00.000Z"
+		]
+	},
+    {
+		"name": "Ye-jun",
+		"lastname": "Gye",
+		"localization": {
+			"type": "Point",
+			"coordinates": [128.8688526, 35.1889534]
+		},
+		"description": "Hello everyone! My name is Ye-jun, and I am delighted to be your guide through the captivating streets of Busan. As a proud native of Busan, I have a deep affection for my city and its rich history, art, and gastronomy.",
+		"duration": 4,
+		"price": 450,
+		"ratingsAvg": 5,
+		"ratingsQuantity": 8,
+		"maxGroupSize": 5,
+		"startDates": [
+			"2023-02-10T09:00:00.000Z",
+			"2023-07-20T09:00:00.000Z",
+			"2023-09-10T09:00:00.000Z",
+			"2024-06-25T09:00:00.000Z",
+			"2024-07-20T09:00:00.000Z",
+			"2024-10-05T09:00:00.000Z"
+		]
+	},
+    {
+		"name": "Jacek",
+		"lastname": "Morawiecki",
+		"localization": {
+			"type": "Point",
+			"coordinates": [20.8963888, 52.2328232]
+		},
+		"description": "Greetings everyone! I'm Jacek, your enthusiastic guide to the wonderful city of Warsaw. Born and bred in this vibrant capital, I carry with me a deep passion for its history, culture, and all the hidden treasures waiting to be discovered.",
+		"duration": 3,
+		"price": 250,
+		"ratingsAvg": 5,
+		"ratingsQuantity": 8,
+		"maxGroupSize": 3,
+		"startDates": [
+			"2023-02-10T09:00:00.000Z",
+			"2023-07-20T09:00:00.000Z",
+			"2023-09-10T09:00:00.000Z",
+			"2024-06-25T09:00:00.000Z",
+			"2024-07-20T09:00:00.000Z",
+			"2024-10-05T09:00:00.000Z"
+		]
+	}
+]
