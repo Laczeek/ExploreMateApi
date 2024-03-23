@@ -17,8 +17,7 @@ const guideSchema = new mongoose_1.Schema({
             enum: ['Point'],
         },
         coordinates: {
-            type: [Number, Number],
-            required: [true, 'The guide must have a localization.'],
+            type: [Number],
         },
     },
     description: {
@@ -73,7 +72,7 @@ guideSchema.pre('save', function (next) {
     if (!this.isNew) {
         return next();
     }
-    this.slug = `${this.name.toLocaleLowerCase()}-${this.lastname.toLowerCase()}`;
+    this.slug = `${this.name.toLowerCase()}-${this.lastname.toLowerCase()}`;
     next();
 });
 const Guide = (0, mongoose_1.model)('Guide', guideSchema);

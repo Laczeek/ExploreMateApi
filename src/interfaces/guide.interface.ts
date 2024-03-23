@@ -3,7 +3,7 @@ export interface IGuide {
     lastname: string;
     localization: {
         type: "Point",
-        coordinates: [number, number]
+        coordinates: number[]
     },
     description: string;
     duration: number;
@@ -13,7 +13,7 @@ export interface IGuide {
     ratingsAvg: number;
     ratingsQuantity: number;
     maxGroupSize: number;
-    startDates: string[];
-    slug: string;
+    startDates: Date[];
+    slug?: string;
     createdAt: Date
 }

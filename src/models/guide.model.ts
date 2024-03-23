@@ -18,9 +18,9 @@ const guideSchema = new Schema<IGuide>({
 			enum: ['Point'],
 		},
 		coordinates: {
-			type: [Number, Number],
-			required: [true, 'The guide must have a localization.'],
+			type: [Number],
 		},
+     
 	},
 	description: {
 		type: String,
@@ -74,12 +74,12 @@ guideSchema.virtual('reviews', {
     foreignField: 'guide',
 })
 
-guideSchema.pre('save', function(next) {
+guideSchema.pre('save', function(this,next) {
     if(!this.isNew) {
         return next();
     }
 
-    this.slug = `${this.name.toLocaleLowerCase()}-${this.lastname.toLowerCase()}`;
+    this.slug = `${this.name.toLowerCase()}-${this.lastname.toLowerCase()}`;
     next();
 })
 
