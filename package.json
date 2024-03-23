@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "node dist/app.js"
   },
   "author": "Patryk Popiela",
   "license": "ISC",
